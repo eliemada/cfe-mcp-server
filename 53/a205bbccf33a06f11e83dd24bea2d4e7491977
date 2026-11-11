@@ -1,0 +1,115 @@
+README.md
+  s_9aa3fde921107c::t_9cc81855b2f4c5 59-61
+  s_9aa3fde921107c::t_f4615963d7e2c9 56-58
+  s_9aa3fde921107c::t_ea3c67d07f0442 62-64
+.gitignore
+  s_b3978efd0f4ff9::t_1ba61a7e25558e 1-18
+docs/API.md
+  s_79cc83742bb04e::t_1c5aab42fa78ba 1-231
+docs/BANKING.md
+  s_68f5b223151ab9::t_9755193571bdae 1-85
+docs/BANKING_API_RESEARCH.md
+  s_68f5b223151ab9::t_18123b0810702e 1-69
+docs/CLAIMS.md
+  s_9aa3fde921107c::t_b11bc536f3bd86 1-113
+docs/METADATA.md
+  s_79cc83742bb04e::t_2c702230652a14 1-69
+docs/REVIEWS.md
+  s_9aa3fde921107c::t_812a448c5a3d9a 1-138
+docs/mobile-endpoints.json
+  s_68f5b223151ab9::t_43317eb4c31219 1-220
+pyproject.toml
+  s_68f5b223151ab9::t_cac5bca4c45ce3 1-42
+src/cfe_mcp/__init__.py
+  s_b3978efd0f4ff9::t_1645ece2b218a6 1
+src/cfe_mcp/auth.py
+  s_68f5b223151ab9::t_764c9a7db7178d 1-114
+src/cfe_mcp/banking.py
+  s_087978a0f71e8d::t_dbb6cb947752ec 1-477
+src/cfe_mcp/care.py
+  s_68f5b223151ab9::t_025e3e5862dbcb 1-227
+src/cfe_mcp/claims.py
+  s_087978a0f71e8d::t_3ece5a814056db 1-569
+src/cfe_mcp/client.py
+  s_9aa3fde921107c::t_d071267b3bb756 1-332
+src/cfe_mcp/data/care_forms.json
+  s_68f5b223151ab9::t_20ff31e0e7c95a 1-2789
+src/cfe_mcp/mobile.py
+  s_68f5b223151ab9::t_5f0870d5a08968 1-303
+src/cfe_mcp/mobile_browser.py
+  s_68f5b223151ab9::t_228be59d208ef4 1-114
+src/cfe_mcp/research.py
+  s_b3978efd0f4ff9::t_4355518d88e8ef 1-77
+tests/pdf_samples.py
+  s_23a8c39fa248a1::t_204f02a179fcbd 1-20
+tests/test_claims.py
+  s_23a8c39fa248a1::t_3ab1604416b6e0 1-393
+tests/test_mobile.py
+  s_68f5b223151ab9::t_368d526beafe29 1-237
+tests/test_mobile_api.py
+  s_68f5b223151ab9::t_004dd9a66088a2 1-187
+tests/test_research.py
+  s_68f5b223151ab9::t_fde855dc1a773f 1-43
+tests/test_review_delivery.py
+  s_68f5b223151ab9::t_601be020b7a3ba 1-298
+tests/test_review_submission.py
+  s_68f5b223151ab9::t_55b75a364b017f 1-226
+uv.lock
+  s_68f5b223151ab9::t_26b0d1d4f6e564 1-1279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "53a205bbccf33a06f11e83dd24bea2d4e7491977",
+  "prompts": {},
+  "sessions": {
+    "s_087978a0f71e8d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0accb413-4007-42ee-b01d-a7d827b8bd01",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    },
+    "s_23a8c39fa248a1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ca19-f658-7213-817f-b178b3213287",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    },
+    "s_68f5b223151ab9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c901-8479-7812-8240-858df0f3f8ef",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    },
+    "s_79cc83742bb04e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e5a9f34a-a235-4965-9e44-cc54c2d7e9f6",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    },
+    "s_9aa3fde921107c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acf92965-d5cd-4b9b-a7ed-1b290fb00fe2",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    },
+    "s_b3978efd0f4ff9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "342438eb-d01a-4d5f-958c-28d2047d0560",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    }
+  }
+}
