@@ -1,0 +1,19 @@
+README.md
+  s_9aa3fde921107c::t_b1340834f8b69c 49-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bf4678e74e0962609933066a9431116d2d5e8a56",
+  "prompts": {},
+  "sessions": {
+    "s_9aa3fde921107c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acf92965-d5cd-4b9b-a7ed-1b290fb00fe2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Elie BRUNO <contact@eliebruno.com>"
+    }
+  }
+}
