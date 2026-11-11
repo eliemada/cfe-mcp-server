@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cfe-mcp-server"
+version = "0.1.0"
+description = "MCP personnel pour l'espace adhérent CFE"
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4>=4.14,<5",
+  "fonttools>=4.60,<5",
+  "httpx>=0.28,<0.29",
+  "mcp>=2.3,<3",
+  "pikepdf>=10.18,<11",
+  "pillow>=12,<13",
+  "playwright>=1.65,<2",
+  "pyjwt[crypto]>=2.15,<3",
+  "pypdf>=7,<8",
+]
+
+[project.scripts]
+cfe-mcp = "cfe_mcp.server:main"
+cfe = "cfe_mcp.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=9,<10", "pytest-asyncio>=1,<2", "ruff>=0.17,<0.18"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cfe_mcp"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-11-11",
+  "package": "fr.cfe.fdsl",
+  "version_name": "3.7.0",
+  "version_code": 307000,
+  "evidence": "static_analysis_and_account_scoped_live_reads",
+  "live_mobile_actions_executed": true,
+  "api_base": "https://cfeprod.crm4.dynamics.com/api/data/v9.2/",
+  "authentication": {
+    "transport": "technical OAuth token in Authorization Bearer",
+    "account": "CFE account token added conditionally to the JSON body as token",
+    "b2c_scopes": [
+      "openid",
+      "offline_access"
+    ],
+    "b2c_refresh_verified": true,
+    "b2c_id_token_lifetime_seconds_observed": 300,
+    "b2c_refresh_token_lifetime_seconds_announced": 1209600,
+    "business_api_authentication_verified": true
+  },
+  "field_list_scope": "Fields before account token injection. Write serializers reconstructed from 3.7.0, covered by mock tests; actual claim submission awaits a real dossier.",
+  "operations": [
+    {
+      "name": "new_api_applimob_auth",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id_token"
+      ],
+      "evidence_address": "0x38c9fc",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_checkVersion",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "body"
+      ],
+      "evidence_address": "0x313150",
+      "evidence": "static_analysis_only",
+      "implemented": false,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_flux17",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "version"
+      ],
+      "evidence_address": "0x2f4d94",
+      "evidence": "static_analysis_only",
+      "implemented": false,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_getParams",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [],
+      "evidence_address": "0x31521c",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getActeDetails",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [],
+      "evidence_address": "0x3155d0",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getCurrencies",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [],
+      "evidence_address": "0x3175dc",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getCircumstances",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [],
+      "evidence_address": "0x3189dc",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getRecipients",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id"
+      ],
+      "evidence_address": "0x317a8c",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getRemboursement",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id"
+      ],
+      "evidence_address": "0x390c08",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_getDocRemboursement",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id",
+        "idRemboursement"
+      ],
+      "evidence_address": "0x39ee8c",
+      "evidence": "live_verified_own_account",
+      "implemented": true,
+      "live_verified": true
+    },
+    {
+      "name": "new_api_applimob_registerDevice",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id",
+        "body"
+      ],
+      "evidence_address": "0x38b6bc",
+      "evidence": "static_analysis_only",
+      "implemented": false,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_activateDevice",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id",
+        "deviceId",
+        "body"
+      ],
+      "evidence_address": "0x38a458",
+      "evidence": "static_analysis_only",
+      "implemented": false,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_checkCare",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id",
+        "body"
+      ],
+      "evidence_address": "0x382d24",
+      "evidence": "static_analysis_and_mock_tests",
+      "implemented": true,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_addDocument",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "type",
+        "file_name",
+        "file_content",
+        "ref_id"
+      ],
+      "evidence_address": "0x313984",
+      "evidence": "static_analysis_and_mock_tests",
+      "implemented": true,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_deleteDocument",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "file_id"
+      ],
+      "evidence_address": "0x379c04",
+      "evidence": "static_analysis_and_mock_tests",
+      "implemented": true,
+      "live_verified": false
+    },
+    {
+      "name": "new_api_applimob_sendRequest",
+      "method": "POST",
+      "content_type": "application/json",
+      "constructed_fields": [
+        "id",
+        "careId",
+        "body"
+      ],
+      "evidence_address": "0x393270",
+      "evidence": "static_analysis_and_mock_tests",
+      "implemented": true,
+      "live_verified": false
+    }
+  ],
+  "live_claim_write_executed": false
+}

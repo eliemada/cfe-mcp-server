@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cfe": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/eliemada/cfe-mcp-server", "cfe-mcp"]
+    }
+  }
+}

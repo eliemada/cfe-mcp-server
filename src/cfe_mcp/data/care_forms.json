@@ -1,0 +1,2789 @@
+{
+  "a_1_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "RG": "ne s'affiche que si pays des soins = ETR",
+      "input_type": "text_form_number"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_1_2": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_6": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_7": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number",
+      "error_message": "keyAmount"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "absDatePresc": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    }
+  },
+  "a_1_4": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_8": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_3": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_5": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_2_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "a_1_2_2": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "b_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_7": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "zoneCare": {
+      "obligatoire": true,
+      "label": "Précisez la zone",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "c_1_6": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_5": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_2": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_3": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "zoneCare": {
+      "obligatoire": true,
+      "label": "Précisez la zone",
+      "input_type": "text_input_texte",
+      "RG": "champ texte"
+    }
+  },
+  "c_1_4": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "c_1_8": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "d_1_6": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date de la première séance",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date de la dernière séance",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date de la première séance",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date de la dernière séance",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date de la première séance",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date de la dernière séance",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "RG": "Champ texte",
+      "input_type": "text_form_texte"
+    }
+  },
+  "d_1_4": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date de la première séance",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date de la dernière séance",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_5": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date début traitement",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date fin traitement",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "input_type": "date",
+      "label": "Date débu-ranget traitement"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "input_type": "date",
+      "label": "Date fin -rangetraitement"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_8": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "input_type": "date",
+      "label": "Date débu-ranget traitement"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date fin traitement",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "d_1_7": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date début traitement",
+      "input_type": "date-range"
+    },
+    "dateEnd": {
+      "obligatoire": true,
+      "label": "Date fin traitement",
+      "input_type": "date-range"
+    },
+    "amountSession": {
+      "obligatoire": true,
+      "label": "Nombre de séances dispensées",
+      "input_type": "text_form_number"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "e_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateExec": {
+      "obligatoire": true,
+      "label": "Date d'exécution",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "e_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateExec": {
+      "obligatoire": true,
+      "label": "Date d'exécution",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "e_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateExec": {
+      "obligatoire": true,
+      "label": "Date d'exécution",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "f_1_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "f_1_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "f_1_1_4": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "f_1_9": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "f_1_3_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_13": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_4": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_5": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_6": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_7": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_8": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_9": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_10": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_11": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "f_1_3_3_12": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "g_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "g_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "input_type": "text_form_number",
+      "label": "Montant"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "h_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "h_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "h_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "dateDeliv": {
+      "obligatoire": true,
+      "label": "Date de délivrance",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "i_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "descriptionFee": {
+      "obligatoire": true,
+      "label": "Description des frais facturés",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "j_1_8": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_9": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_2": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_3": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_4": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_5": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "j_1_7": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "j_1_6": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "j_2": {
+    "dateExec": {
+      "obligatoire": true,
+      "label": "Date d'exécution",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "description": {
+      "obligatoire": true,
+      "label": "Description du traitement",
+      "input_type": "text_form_texte",
+      "RG": "Champ texte"
+    }
+  },
+  "k_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "k_1_2": {
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date début traitement",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "k_1_4": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "k_1_3": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "k_1_7": {
+    "dateStart": {
+      "obligatoire": true,
+      "label": "Date début traitement",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "targetDuration": {
+      "obligatoire": false,
+      "label": "Durée prévisible(en mois)",
+      "input_type": "text_form_number"
+    }
+  },
+  "k_1_6": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "k_1_5": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "reasonCare": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "l_1_4": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "RG": "Obligatoire",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "l_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Obligatoire"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "l_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Obligatoire"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "l_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Obligatoire"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "l_1_5": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Obligatoire"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "transportModeDetails": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "m_1_4": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "m_1_1": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "m_1_3": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "m_1_2": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    }
+  },
+  "m_1_5": {
+    "datePrescribe": {
+      "obligatoire": true,
+      "label": "Date de prescription",
+      "input_type": "date",
+      "RG": "Si la date n'est pas saisie, la donnée \"Absence de prescription doit être cochée"
+    },
+    "isPrescribed": {
+      "obligatoire": false,
+      "label": "absence de prescription",
+      "input_type": "checkbox",
+      "RG": "Case à cocher. Si l'adhérent coche cette case, la donnée \"Date de prescription\" n'est plus accessible et un message est affiché."
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "dateFirstTransport": {
+      "obligatoire": true,
+      "label": "Date du premier transport",
+      "input_type": "date"
+    },
+    "transportModeDetails": {
+      "obligatoire": true,
+      "label": "Précisez",
+      "input_type": "text_form_texte",
+      "RG": "champ texte"
+    }
+  },
+  "n_1": {
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "sejourStart": {
+      "obligatoire": true,
+      "label": "Date début de séjour",
+      "input_type": "date-range"
+    },
+    "sejourEnd": {
+      "obligatoire": true,
+      "label": "Date fin de séjour",
+      "input_type": "date-range"
+    }
+  },
+  "o_1": {
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    },
+    "sejourStart": {
+      "obligatoire": true,
+      "label": "Date début de séjour",
+      "input_type": "date-range"
+    },
+    "sejourEnd": {
+      "obligatoire": true,
+      "label": "Date fin de séjour",
+      "input_type": "date-range"
+    }
+  },
+  "p_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "p_1_1": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  },
+  "p_1_2": {
+    "dateCare": {
+      "obligatoire": true,
+      "label": "Date des soins",
+      "input_type": "date"
+    },
+    "amount": {
+      "obligatoire": true,
+      "label": "Montant",
+      "input_type": "text_form_number"
+    },
+    "localAmount": {
+      "obligatoire": false,
+      "label": "Dont montant pris en charge par organisme local",
+      "input_type": "text_form_number",
+      "RG": "ne s'affiche que si pays des soins = ETR"
+    },
+    "codeDevise": {
+      "obligatoire": true,
+      "label": "Indiquez la devise dans laquelle les soins ont été facturés",
+      "input_type": "dropdownn_with_devises"
+    }
+  }
+}
