@@ -46,6 +46,17 @@ Deux connexions distinctes, chacune avec ses outils :
 Sans ce fichier (`~/.local/share/cfe-mcp/mobile-service-config.json`), les outils de l'API mobile
 répondent par une erreur explicite ; ceux du portail fonctionnent normalement.
 
+### Activer l'API mobile
+
+Le fichier ne contient aucune donnée personnelle : seulement le secret de l'application CFE,
+commun à tous. Il se transmet **en privé** (Signal, AirDrop), jamais par e-mail ni sur un dépôt
+public. Chacun se connecte ensuite avec **son** compte et ne voit que **ses** données.
+
+1. Recevoir `mobile-service-config.json` de la personne qui l'a.
+2. Le placer dans `~/.local/share/cfe-mcp/mobile-service-config.json`
+   (créer le dossier si besoin : `mkdir -p ~/.local/share/cfe-mcp`).
+3. Dans Claude : « Connecte-moi à la CFE en mobile » (`cfe_mobile_start_login`), puis Chrome.
+
 ## Exemples
 
 - « Liste mes démarches CFE en cours. »
